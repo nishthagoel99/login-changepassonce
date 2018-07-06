@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fake Name Generator</title>
+	<link rel="stylesheet"  type="text/css"  href="styletable.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<h1 id='headi'>Displaying data from database</h1>
+		<br>
+		<table class="table table-responsive table-hover " id="table1" >
+		<tr>
+			<th>Name</th>
+			<th>Password</th>
+		</tr>
+		
+			<% for(var i=0; i< data.length; i++){ %>
+			<tr>
+				<td><%= data[i].Name %></td>
+				<td><%= data[i].Password %></td>
+			</tr>
+			<% } %>
+			
+	</table>
+
+</div>
+			
+</body>
+</html>

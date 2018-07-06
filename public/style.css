@@ -1,0 +1,76 @@
+#first{
+	background-color: #57043D;
+	 display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box{
+	border: 1px solid black;
+	margin-top: 50px;
+	padding-top:20px; 
+	margin-bottom: 100px;
+	background-color: white;
+	height: 500px;
+	width: 500px;
+}
+#mainicon{
+	background-color: #57043D;
+
+    color: white;
+}
+#linkbtn1{
+	color:white;
+	display: block;
+	text-decoration: none;
+	list-style-type: none;
+}
+.head{
+	height:100px;
+	padding: 0;
+	background-color: #2C011E;
+	font-weight: bold;
+		text-align: center;
+	color:white;
+	font-weight: bold;
+}
+.row{
+	padding-top: 20px;
+}
+.col-md-6{
+	align-items: center;
+	font-size: 50px;
+}
+.col-md-6:hover{
+box-shadow: 0 0 10px rgba(0,0,0,10);
+padding: 10px;
+background-color:  #2C011E;
+}
+#submitbtn{
+	background-color: #2C011E;
+
+	color: white;
+}
+#submitbtn:hover{
+		background-color: #5D0B43;
+}
+#linkbtn{
+	padding-top: 20px;
+	color: #2C011E;
+	padding-left: 10px;
+}
+#linkbtn:hover{
+	color:#5D0B43;
+}
+#form-group{
+	font-size: 15px;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+h1{
+	padding-top: 25px;
+}
+#data,#data1,#data2 {
+	display: hidden;
+}
